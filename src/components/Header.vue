@@ -11,10 +11,11 @@
       </ul>
       <a class="invite hidden md:flex px-8 py-3 text-white" href="#">Request Invite</a>
       <div
-        class="hamburger md:hidden"
+        class="hamburger-close pointer md:hidden"
         @click="toggleNav"
       >
-        <img class="pointer md:hidden" src="../assets/images/icon-hamburger.svg" alt="hamburger">
+        <img ref="openHam" class="hamburger-img" src="../assets/images/icon-hamburger.svg" alt="hamburger">
+        <img ref="closeHam" class="close-img" src="../assets/images/icon-close.svg" alt="close">
       </div>
     </div>
     <div
@@ -36,7 +37,25 @@
 
 <script>
 export default {
-  name: "Header"
+  name: "Header",
+  methods: {
+    toggleNav() {
+      let navScroll = this.$refs.navId;
+      let openHam = this.$refs.openHam;
+      let closeHam = this.$refs.closeHam;
+      if (navScroll.style.top === '-290px') {
+        navScroll.style.boxShadow = '0px 152px 294px 28px rgba(66,66,66,0.71)';
+        navScroll.style.top = '60px';
+        openHam.style.display = 'none';
+        closeHam.style.display = 'block';
+      } else {
+        navScroll.style.top = '-290px';
+        openHam.style.display = 'block';
+        closeHam.style.display = 'none';
+        navScroll.style.boxShadow = 'none';
+      }
+    }
+  }
 }
 </script>
 
@@ -67,7 +86,7 @@ export default {
 }
 .nav-scroll {
   position: absolute;
-  top: 60px;
+  top: -290px;
   width: 90%;
   height: 280px;
   margin-left: 5%;
@@ -75,11 +94,12 @@ export default {
   text-align: center;
   color: #2D314D;
   font-size: 18px;
-  transition: all .3s cubic-bezier(.03, .84, .18, 1.01);
+  transition: all .5s cubic-bezier(.03, .84, .18, 1.01);
   z-index: 99;
-  -webkit-box-shadow: 0px 56px 241px 20px rgba(66,66,66,0.71);
-  -moz-box-shadow: 0px 56px 241px 20px rgba(66,66,66,0.71);
-  box-shadow: 0px 56px 241px 20px rgba(66,66,66,0.71);
+}
+
+.close-img {
+  display: none;
 }
 
 @media screen and (max-width: 768px) { 

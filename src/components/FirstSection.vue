@@ -1,8 +1,8 @@
 <template>
   <div class="firstSection h-screen w-full">
-    <div class="section-content flex h-full justify-between items-center w-full">
-      <div class="first-desc w-2/5">
-        <h1 class="text-6xl leading-tight mb-8">Next generation digital banking</h1>
+    <div class="section-content flex flex-col md:flex-row h-full justify-start md:justify-between items-center w-full">
+      <div class="first-desc text-center md:text-left w-11/12 md:w-2/5">
+        <h1 class="text-4xl md:text-6xl leading-tight mb-6 md:mb-8">Next generation digital banking</h1>
         <p class="text-xl mb-8">Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.</p>
         <a href="#" class="invite-btn px-8 py-3 text-white text-xl">Request Invite</a>
       </div>
@@ -56,5 +56,23 @@ export default {
 }
 .random-container {
   overflow-x: hidden;
+}
+@media screen and (max-width: 768px) { 
+  .phones {
+    top: -84px;
+    background: url('../assets/images/bg-intro-mobile.svg');
+    background-position: left bottom;
+    height: 503px;
+  }
+  .random-container {
+    overflow-x: none;
+  }
+  .image-mockup {
+    margin-left: 0;
+    top: 164px;
+  }
+  .first-desc {
+    margin-top: 400px;
+  }
 }
 </style>
