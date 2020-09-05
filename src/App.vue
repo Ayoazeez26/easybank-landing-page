@@ -2,18 +2,21 @@
   <div id="app">
     <Header />
     <FirstSection />
+    <SecondSection />
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue'
 import FirstSection from './components/FirstSection.vue'
+import SecondSection from './components/SecondSection.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
-    FirstSection
+    FirstSection,
+    SecondSection
   }
 }
 </script>
