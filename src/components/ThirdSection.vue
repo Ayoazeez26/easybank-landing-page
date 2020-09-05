@@ -1,15 +1,17 @@
 <template>
-  <div class="secondSection w-full">
+  <div class="thirdSection w-full">
     <div class="section-content flex flex-col h-full justify-start md:justify-between items-center md:items-start w-full">
-      <div class="second-desc mb-10 mt-10 md:mt-24 text-center md:text-left w-11/12 md:w-3/5">
-        <h1 class="text-4xl md:text-5xl leading-tight mb-6 md:mb-8">Why choose Easybank?</h1>
-        <p class="text-xl mb-8">We leverage Open Banking to turn your bank account into your financial hub. Control your finances like never before.</p>
+      <div class="second-desc mb-10 mt-10 md:mt-24 text-center md:text-left w-11/12">
+        <h1 class="text-4xl md:text-5xl leading-tight mb-6 md:mb-8">Latest Articles</h1>
       </div>
       <div class="content-list second-desc flex flex-col md:flex-row h-full justify-start md:justify-between items-center md:items-start w-full">
-        <div class="content-item item-1 flex flex-col items-center md:items-start text-center md:text-left">
-          <img src="../assets/images/icon-online.svg" alt="online-banking-image">
-          <h2 class="text-3xl font- mb-4 mt-6">Online Banking</h2>
-          <p class="text-xl mb-8">Our modern web and mobile applications allow you to keep track of your finances wherever you are in the world.</p>
+        <div class="content-item item-1 flex flex-col items-center md:items-start rounded-lg text-center md:text-left">
+          <img src="../assets/images/image-currency.jpg" alt="currency-image">
+          <div class="content-content bg-white px-4 py-5">
+            <p class="author text-sm">By Claire Robinson</p>
+            <h2 class="text-3xl font- mb-4 mt-6">Receive money in any currency with no fees</h2>
+            <p class="text-xl mb-8">The world is getting smaller and we’re becoming more mobile. So why should you be forced to only receive money in a single …</p>
+          </div>
         </div>
         <div class="content-item item-2 flex flex-col items-center md:items-start text-center md:text-left">
           <img src="../assets/images/icon-budgeting.svg" alt="simple-budgeting-image">
@@ -33,13 +35,13 @@
 
 <script>
 export default {
-  name: "SecondSection"
+  name: "ThirdSection"
 }
 </script>
 
 <style scoped>
-.secondSection {
-  background-color: #F3F4F6;
+.ThirdSection {
+  background-color: #FAFAFA;
 }
 .section-content {
   width: 100%;
@@ -57,7 +59,7 @@ export default {
   background: linear-gradient(90deg, rgba(30,228,82,1) 0%, rgba(24,200,208,1) 100%);
 }
 .second-desc h1,
-.second-desc h2 {
+.second-desc h3 {
   color: #2D314D;
 }
 .second-desc p {

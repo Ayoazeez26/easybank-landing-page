@@ -3,6 +3,7 @@
     <Header />
     <FirstSection />
     <SecondSection />
+    <ThirdSection />
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import Header from './components/Header.vue'
 import FirstSection from './components/FirstSection.vue'
 import SecondSection from './components/SecondSection.vue'
+import ThirdSection from './components/ThirdSection.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
     FirstSection,
-    SecondSection
+    SecondSection,
+    ThirdSection
   }
 }
 </script>
