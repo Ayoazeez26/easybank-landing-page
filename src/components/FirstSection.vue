@@ -62,7 +62,7 @@ export default {
     top: -84px;
     background: url('../assets/images/bg-intro-mobile.svg');
     background-position: left bottom;
-    height: 503px;
+    height: 542px;
   }
   .random-container {
     overflow-x: none;
