@@ -45,7 +45,7 @@ export default {
       let closeHam = this.$refs.closeHam;
       if (navScroll.style.top === '-290px') {
         navScroll.style.boxShadow = 'rgb(62 62 62 / 71%) 0px 20px 294px 28px';
-        navScroll.style.top = '60px';
+        navScroll.style.top = '100px';
         openHam.style.display = 'none';
         closeHam.style.display = 'block';
       } else {
