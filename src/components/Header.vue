@@ -94,7 +94,7 @@ export default {
   text-align: center;
   color: #2D314D;
   font-size: 18px;
-  transition: all .5s cubic-bezier(.03, .84, .18, 1.01);
+  transition: all .5s ease-in-out;
   z-index: 99;
 }
 
