@@ -88,6 +88,10 @@ export default {
 .content-item img {
   height: 226px;
 }
+.content-content h2:hover {
+  color: rgb(30,228,82);
+  cursor: pointer;
+}
 @media screen and (min-width: 768px) { 
   .content-item {
     width: 23.5%;
