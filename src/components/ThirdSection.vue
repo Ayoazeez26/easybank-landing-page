@@ -1,32 +1,41 @@
 <template>
   <div class="thirdSection w-full">
-    <div class="section-content flex flex-col h-full justify-start md:justify-between items-center md:items-start w-full">
-      <div class="second-desc mb-10 mt-10 md:mt-24 text-center md:text-left w-11/12">
+    <div class="section-content flex flex-col h-full justify-start md:justify-between items-center md:items-start pb-20 w-full">
+      <div class="second-desc mb-10 mt-10 md:mt-24 text-center md:text-left w-9/10">
         <h1 class="text-4xl md:text-5xl leading-tight mb-6 md:mb-8">Latest Articles</h1>
       </div>
-      <div class="content-list second-desc flex flex-col md:flex-row h-full justify-start md:justify-between items-center md:items-start w-full">
-        <div class="content-item item-1 flex flex-col items-center md:items-start rounded-lg text-center md:text-left">
-          <img src="../assets/images/image-currency.jpg" alt="currency-image">
-          <div class="content-content bg-white px-4 py-5">
-            <p class="author text-sm">By Claire Robinson</p>
-            <h2 class="text-3xl font- mb-4 mt-6">Receive money in any currency with no fees</h2>
-            <p class="text-xl mb-8">The world is getting smaller and we’re becoming more mobile. So why should you be forced to only receive money in a single …</p>
+      <div class="content-list second-desc flex flex-col md:flex-row h-full justify-start md:justify-between items-center md:items-start w-9/10 md:w-full">
+        <div class="content-item item-1 flex flex-col items-center md:items-start text-left mb-6">
+          <img src="../assets/images/image-currency.jpg" class="rounded-t-lg" alt="currency-image">
+          <div class="content-content rounded-b-lg bg-white px-5 py-8">
+            <p class="author text-xs md:text-sm">By Claire Robinson</p>
+            <h2 class="text-xl md:text-2xl leading-none mb-4 mt-6 w-full">Receive money in any currency with no fees</h2>
+            <p class="text-base md:text-lg leading-tight">The world is getting smaller and we’re becoming more mobile. So why should you be forced to only receive money in a single …</p>
           </div>
         </div>
-        <div class="content-item item-2 flex flex-col items-center md:items-start text-center md:text-left">
-          <img src="../assets/images/icon-budgeting.svg" alt="simple-budgeting-image">
-          <h2 class="text-3xl font- mb-4 mt-6">Simple Budgeting</h2>
-          <p class="text-xl mb-8">See exactly where your money goes each month. Receive notifications when you’re close to hitting your limits.</p>
+        <div class="content-item item-1 flex flex-col items-center md:items-start text-left mb-6">
+          <img src="../assets/images/image-restaurant.jpg" class="rounded-t-lg" alt="restaurant-image">
+          <div class="content-content rounded-b-lg bg-white px-5 py-8">
+            <p class="author text-xs md:text-sm">By Wilson Hutton</p>
+            <h2 class="text-xl md:text-2xl leading-none mb-4 mt-6 w-full">Treat yourself without worrying about money</h2>
+            <p class="text-base md:text-lg leading-tight">Our simple budgeting feature allows you to separate out your spending and set realistic limits each month. That means you …</p>
+          </div>
         </div>
-        <div class="content-item item-3 flex flex-col items-center md:items-start text-center md:text-left">
-          <img src="../assets/images/icon-onboarding.svg" alt="fast-onboarding-image">
-          <h2 class="text-3xl font- mb-4 mt-6">Fast Onboarding</h2>
-          <p class="text-xl mb-8">We don’t do branches. Open your account in minutes online and start taking control of your finances right away.</p>
+        <div class="content-item item-1 flex flex-col items-center md:items-start text-left mb-6">
+          <img src="../assets/images/image-plane.jpg" class="rounded-t-lg" alt="airplane-image">
+          <div class="content-content rounded-b-lg bg-white px-5 py-8">
+            <p class="author text-xs md:text-sm">By Wilson Hutton</p>
+            <h2 class="text-xl md:text-2xl leading-none mb-4 mt-6 w-full">Take your Easybank card wherever you go</h2>
+            <p class="text-base md:text-lg leading-tight">We want you to enjoy your travels. This is why we don’t charge any fees on purchases while you’re abroad. We’ll even show you …</p>
+          </div>
         </div>
-        <div class="content-item item-3 flex flex-col items-center md:items-start text-center md:text-left">
-          <img src="../assets/images/icon-api.svg" alt="open-api-image">
-          <h2 class="text-3xl font- mb-4 mt-6">Open API</h2>
-          <p class="text-xl mb-8">Manage your savings, investments, pension, and much more from one account. Tracking your money has never been easier.</p>
+        <div class="content-item item-1 flex flex-col items-center md:items-start text-left mb-6">
+          <img src="../assets/images/image-confetti.jpg" class="rounded-t-lg" alt="confetti-image">
+          <div class="content-content rounded-b-lg bg-white px-5 py-8">
+            <p class="author text-xs md:text-sm">By Claire Robinson</p>
+            <h2 class="text-xl md:text-2xl leading-none mb-4 mt-6 w-full">Our invite-only Beta accounts are now live!</h2>
+            <p class="text-base md:text-lg leading-tight">After a lot of hard work by the whole team, we’re excited to launch our closed beta. It’s easy to request an invite through the site ...</p>
+          </div>
         </div>
       </div>
     </div>
@@ -40,7 +49,7 @@ export default {
 </script>
 
 <style scoped>
-.ThirdSection {
+.thirdSection {
   background-color: #FAFAFA;
 }
 .section-content {
@@ -75,6 +84,9 @@ export default {
 }
 .random-container {
   overflow-x: hidden;
+}
+.content-item img {
+  height: 226px;
 }
 @media screen and (min-width: 768px) { 
   .content-item {
