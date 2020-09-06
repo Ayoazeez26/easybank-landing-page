@@ -5,7 +5,7 @@
         <h1 class="text-4xl md:text-5xl leading-tight mb-6 md:mb-8">Why choose Easybank?</h1>
         <p class="text-xl mb-8">We leverage Open Banking to turn your bank account into your financial hub. Control your finances like never before.</p>
       </div>
-      <div class="content-list second-desc flex flex-col md:flex-row h-full justify-start md:justify-between items-center md:items-start w-full">
+      <div class="content-list second-desc flex flex-col md:flex-row h-full justify-start md:justify-between items-center md:items-start w-9/10 md:w-full">
         <div class="content-item item-1 flex flex-col items-center md:items-start text-center md:text-left">
           <img src="../assets/images/icon-online.svg" alt="online-banking-image">
           <h2 class="text-3xl font- mb-4 mt-6">Online Banking</h2>
