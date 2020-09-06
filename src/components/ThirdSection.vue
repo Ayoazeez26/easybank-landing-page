@@ -6,7 +6,7 @@
       </div>
       <div class="content-list second-desc flex flex-col md:flex-row h-full justify-start md:justify-between items-center md:items-start w-9/10 md:w-full">
         <div class="content-item item-1 flex flex-col items-center md:items-start text-left mb-6">
-          <img src="../assets/images/image-currency.jpg" class="rounded-t-lg" alt="currency-image">
+          <img src="../assets/images/image-currency.jpg" class="rounded-t-lg w-full" alt="currency-image">
           <div class="content-content rounded-b-lg bg-white px-5 py-8">
             <p class="author text-xs md:text-sm">By Claire Robinson</p>
             <h2 class="text-xl md:text-2xl leading-none mb-4 mt-6 w-full">Receive money in any currency with no fees</h2>
@@ -14,7 +14,7 @@
           </div>
         </div>
         <div class="content-item item-1 flex flex-col items-center md:items-start text-left mb-6">
-          <img src="../assets/images/image-restaurant.jpg" class="rounded-t-lg" alt="restaurant-image">
+          <img src="../assets/images/image-restaurant.jpg" class="rounded-t-lg w-full" alt="restaurant-image">
           <div class="content-content rounded-b-lg bg-white px-5 py-8">
             <p class="author text-xs md:text-sm">By Wilson Hutton</p>
             <h2 class="text-xl md:text-2xl leading-none mb-4 mt-6 w-full">Treat yourself without worrying about money</h2>
@@ -22,7 +22,7 @@
           </div>
         </div>
         <div class="content-item item-1 flex flex-col items-center md:items-start text-left mb-6">
-          <img src="../assets/images/image-plane.jpg" class="rounded-t-lg" alt="airplane-image">
+          <img src="../assets/images/image-plane.jpg" class="rounded-t-lg w-full" alt="airplane-image">
           <div class="content-content rounded-b-lg bg-white px-5 py-8">
             <p class="author text-xs md:text-sm">By Wilson Hutton</p>
             <h2 class="text-xl md:text-2xl leading-none mb-4 mt-6 w-full">Take your Easybank card wherever you go</h2>
@@ -30,7 +30,7 @@
           </div>
         </div>
         <div class="content-item item-1 flex flex-col items-center md:items-start text-left mb-6">
-          <img src="../assets/images/image-confetti.jpg" class="rounded-t-lg" alt="confetti-image">
+          <img src="../assets/images/image-confetti.jpg" class="rounded-t-lg w-full" alt="confetti-image">
           <div class="content-content rounded-b-lg bg-white px-5 py-8">
             <p class="author text-xs md:text-sm">By Claire Robinson</p>
             <h2 class="text-xl md:text-2xl leading-none mb-4 mt-6 w-full">Our invite-only Beta accounts are now live!</h2>
