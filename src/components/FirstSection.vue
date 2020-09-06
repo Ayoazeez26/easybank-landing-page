@@ -72,7 +72,7 @@ export default {
     top: 164px;
   }
   .first-desc {
-    margin-top: 460px;
+    margin-top: 480px;
   }
 }
 </style>

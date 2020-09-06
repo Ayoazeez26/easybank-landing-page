@@ -1,6 +1,6 @@
 <template>
   <div class="header bg-white fixed w-full z-20">
-    <div class="navbar flex h-10 md:h-20 justify-between items-center">
+    <div class="navbar flex h-20 justify-between items-center">
       <img src="../assets/images/logo.svg" alt="logo">
       <ul class="nav-el hidden md:flex h-full">
         <li class="mr-3 h-full flex items-center">Home</li>
@@ -44,7 +44,7 @@ export default {
       let openHam = this.$refs.openHam;
       let closeHam = this.$refs.closeHam;
       if (navScroll.style.top === '-290px') {
-        navScroll.style.boxShadow = '0px 152px 294px 28px rgba(66,66,66,0.71)';
+        navScroll.style.boxShadow = 'rgb(62 62 62 / 71%) 0px 20px 294px 28px';
         navScroll.style.top = '60px';
         openHam.style.display = 'none';
         closeHam.style.display = 'block';
