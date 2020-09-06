@@ -62,7 +62,7 @@ export default {
     top: -84px;
     background: url('../assets/images/bg-intro-mobile.svg');
     background-position: left bottom;
-    height: 542px;
+    height: 570px;
   }
   .random-container {
     overflow-x: none;
@@ -72,7 +72,7 @@ export default {
     top: 164px;
   }
   .first-desc {
-    margin-top: 500px;
+    margin-top: 460px;
   }
 }
 </style>
