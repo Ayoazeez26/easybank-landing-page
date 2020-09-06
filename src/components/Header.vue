@@ -24,11 +24,11 @@
       ref="navId"
     >
       <ul class="items flex flex-col justify-between items-center">
-        <li class="mt-6 text-center">Home</li>
-        <li class="mt-6 text-center">About</li>
-        <li class="mt-6 text-center">Contact</li>
-        <li class="mt-6 text-center">Blog</li>
-        <li class="mt-6 text-center">Careers</li>
+        <li class="mt-8 text-center">Home</li>
+        <li class="mt-8 text-center">About</li>
+        <li class="mt-8 text-center">Contact</li>
+        <li class="mt-8 text-center">Blog</li>
+        <li class="mt-8 text-center">Careers</li>
       </ul>
     </div>
   </div>
@@ -43,13 +43,13 @@ export default {
       let navScroll = this.$refs.navId;
       let openHam = this.$refs.openHam;
       let closeHam = this.$refs.closeHam;
-      if (navScroll.style.top === '-290px') {
+      if (navScroll.style.top === '-330px') {
         navScroll.style.boxShadow = 'rgb(62 62 62 / 71%) 0px 20px 294px 28px';
         navScroll.style.top = '100px';
         openHam.style.display = 'none';
         closeHam.style.display = 'block';
       } else {
-        navScroll.style.top = '-290px';
+        navScroll.style.top = '-330px';
         openHam.style.display = 'block';
         closeHam.style.display = 'none';
         navScroll.style.boxShadow = 'none';
@@ -86,9 +86,9 @@ export default {
 }
 .nav-scroll {
   position: absolute;
-  top: -290px;
+  top: -330px;
   width: 90%;
-  height: 280px;
+  height: 330px;
   margin-left: 5%;
   border-radius: 10px;
   text-align: center;
