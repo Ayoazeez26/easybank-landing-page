@@ -75,4 +75,9 @@ export default {
     margin-top: 480px;
   }
 }
+@media screen and (max-width: 370px) {
+  .first-desc {
+    margin-top: 395px;
+  }
+}
 </style>

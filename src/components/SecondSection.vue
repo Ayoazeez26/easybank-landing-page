@@ -79,4 +79,9 @@ export default {
     width: 23.5%;
   }
 }
+@media screen and (max-width: 370px) {
+  .section-content {
+    margin-top: 300px;
+  }
+}
 </style>
